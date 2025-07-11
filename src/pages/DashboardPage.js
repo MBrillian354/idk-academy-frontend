@@ -12,7 +12,7 @@ export default function DashboardPage() {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="container mx-auto px-4 py-8">
           {/* Header Section */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
               <div>
                 <h1 className="text-4xl font-bold text-gray-800 mb-2">
@@ -35,7 +35,7 @@ export default function DashboardPage() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <Link
               to="/upload"
-              className="group bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-500"
+              className="group bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-500"
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
@@ -55,7 +55,7 @@ export default function DashboardPage() {
 
             <Link
               to="/scores"
-              className="group bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-blue-500"
+              className="group bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-blue-500"
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
@@ -75,7 +75,7 @@ export default function DashboardPage() {
           </div>
 
           {/* Stats Overview */}
-          {/* <div className="bg-white rounded-2xl shadow-lg p-8">
+          {/* <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Quick Overview</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="text-center p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-xl">

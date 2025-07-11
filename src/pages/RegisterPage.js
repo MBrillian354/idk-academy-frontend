@@ -28,7 +28,7 @@ function RegisterPage() {
     }
 
     try {
-      await axios.post(process.env.REACT_APP_API_URL + '/api/auth/register', {
+      await axios.post('http://localhost:5000/api/auth/register', {
         email,
         password,
         name
@@ -43,7 +43,7 @@ function RegisterPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 px-4">
-      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-xl w-full max-w-md border border-gray-100">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Create Account</h2>
           <p className="text-gray-600">Join us today and get started</p>
