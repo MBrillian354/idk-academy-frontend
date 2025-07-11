@@ -45,7 +45,7 @@ export default function ScoreHistoryPage() {
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6">
               <h1 className="text-3xl font-bold text-white">Score History</h1>
               <p className="text-blue-100 mt-2">Manage and view student scores</p>
@@ -148,7 +148,7 @@ export default function ScoreHistoryPage() {
       {/* Edit Modal */}
       {editing && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg shadow-2xl w-full max-w-md">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 rounded-t-2xl">
               <h2 className="text-xl font-bold text-white">Edit Score</h2>
             </div>
